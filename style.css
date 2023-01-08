@@ -1,0 +1,29 @@
+body{
+    margin: 20px;
+}
+
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    width: 50%;
+    height: 140px;
+    background-color: #FEDD34;
+    box-shadow: 5px 5px #E5E4E1;
+}
+
+#notes-zone{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#delete{
+    margin-top: 20px;
+}

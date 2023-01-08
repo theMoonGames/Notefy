@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Notefy",
+  "description": "Write your own notes without stopping what you were already doing",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "image/note.png",
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
